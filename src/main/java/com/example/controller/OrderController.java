@@ -21,7 +21,12 @@ import com.example.service.OrderService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-
+/**
+ * 注文処理を操作するコントローラ.
+ * 
+ * @author yoshida_yuuta
+ * 
+ */
 @Controller
 @RequestMapping("/order")
 public class OrderController {
@@ -32,8 +37,10 @@ public class OrderController {
 
 	@PostMapping("/orderinfosend")
 	public String orderInfoSend(@Validated OrderForm orderform, BindingResult result, Model model,
-			@AuthenticationPrincipal LoginUser loginUser,HttpServletRequest request) {
-		if(orderform.getOrderDate().equals("")) {return controller.orderPost(model, orderform, loginUser);}
+			@AuthenticationPrincipal LoginUser loginUser, HttpServletRequest request) {
+		if (orderform.getOrderDate().equals("")) {
+			return controller.orderPost(model, orderform, loginUser);
+		}
 		LocalDateTime date = LocalDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		LocalDate dates = LocalDate.parse(orderform.getOrderDate(), formatter);

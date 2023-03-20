@@ -12,7 +12,7 @@ import com.example.repository.ItemRepository;
 /**
  * 商品情報を操作するサービス.
  * 
- * @author ichiyoshikenta
+ * @author ichiyoshi_kenta
  *
  */
 
@@ -23,10 +23,10 @@ public class ShowItemListService {
 	private ItemRepository repository;
 
 	/**
-	 * 商品情報を全件取得する.
+	 * 商品情報を全件取得する.(商品名が存在すれば曖昧検索、存在しなければ全件検索)
 	 * 
 	 * @param name 商品名
-	 * @return 商品一覧.
+	 * @return 検索された商品一覧.
 	 */
 	public List<Item> showItemList(String name) {
 		List<Item> itemList = repository.findAll();
@@ -39,6 +39,12 @@ public class ShowItemListService {
 		return itemList;
 	}
 	
+	/**
+	 * 商品を並び替える
+	 * 
+	 * @param sort　並び替え条件
+	 * @return　並び替え結果
+	 */
 	public List<Item> sortItem(Integer sort) {
 		List<Item> sortList = null;
 		if (sort == 1) {

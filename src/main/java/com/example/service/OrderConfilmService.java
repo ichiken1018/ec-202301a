@@ -10,7 +10,7 @@ import com.example.repository.OrderRepository;
 /**
  * 注文内容表示サービス
  * 
- * @author yoshidayuuta
+ * @author yoshida_yuuta
  *
  */
 @Service

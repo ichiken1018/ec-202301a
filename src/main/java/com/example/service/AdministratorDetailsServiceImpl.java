@@ -18,7 +18,7 @@ import com.example.repository.UserRepository;
 /**
  * ログイン後の管理者情報に権限情報を付与するサービスクラス.
  * 
- * @author matsuokakeiichi
+ * @author matsuoka_keiichi
  *
  */
 @Service

@@ -11,7 +11,7 @@ import com.example.repository.UserRepository;
 /**
  * Userリポジトリを操作するサービスクラス.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 @Service

@@ -15,7 +15,7 @@ import com.example.domain.Topping;
 /**
  * toppingsテーブルを操作するリポジトリ.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 @Repository

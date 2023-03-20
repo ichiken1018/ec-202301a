@@ -14,7 +14,7 @@ import com.example.repository.ToppingRepository;
 /**
  * 商品詳細を操作するサービス
  * 
- * @author ichiyoshikenta
+ * @author ichiyoshi_kenta
  *
  */
 @Service
@@ -25,6 +25,12 @@ public class ShowItemDetailService {
 	@Autowired
 	private ToppingRepository toppingRepository;
 
+	/**
+	 * 商品詳細情報を取得する
+	 * 
+	 * @param itemId　商品ID
+	 * @return 検索された商品詳細情報
+	 */
 	public Item showItemDetail(Integer itemId) {
 		Item item = itemRepository.load(itemId);
 		List<Topping>toppingList = toppingRepository.findAll();

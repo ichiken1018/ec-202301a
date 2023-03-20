@@ -8,7 +8,7 @@ import jakarta.validation.constraints.Size;
 /**
  * 入力されたユーザー情報を引き継がせるフォームクラス.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 public class InsertUserForm {

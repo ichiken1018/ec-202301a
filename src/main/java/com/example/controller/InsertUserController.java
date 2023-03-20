@@ -20,7 +20,7 @@ import com.example.service.InsertUserService;
 /**
  * ユーザー登録を行うコントローラー.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 @Controller

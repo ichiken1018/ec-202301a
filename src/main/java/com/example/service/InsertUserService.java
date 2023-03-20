@@ -10,7 +10,7 @@ import com.example.repository.UserRepository;
 /**
  * Userリポジトリを呼び出すサービスクラス.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 @Service

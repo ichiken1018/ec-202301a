@@ -14,6 +14,12 @@ import com.example.domain.Order;
 import com.example.domain.UserInfo;
 import com.example.service.OrderHistoryService;
 
+/**
+ * 注文履歴を操作するコントローラ.
+ * 
+ * @author yoshida_yuuta
+ *
+ */
 @Controller
 @RequestMapping("/orederhistory")
 public class OrderHistoryViewContoroller {

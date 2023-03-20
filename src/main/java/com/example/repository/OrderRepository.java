@@ -19,6 +19,12 @@ import com.example.domain.OrderItem;
 import com.example.domain.OrderTopping;
 import com.example.domain.Topping;
 
+/**
+ * ordersテーブルを操作するリポジトリ.
+ * 
+ * @author seiji_kitahara
+ *
+ */
 @Repository
 public class OrderRepository {
 

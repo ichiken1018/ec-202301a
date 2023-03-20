@@ -3,7 +3,7 @@ package com.example.form;
 /**
  * 入力された情報を引き継がせるフォームクラス.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 //public class LoginUserForm {

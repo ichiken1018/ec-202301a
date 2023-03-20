@@ -11,7 +11,7 @@ import com.example.repository.OrderRepository;
 
 /**
  * 履歴情報を表示するサービス
- * @author yoshidayuuta
+ * @author yoshida_yuuta
  *
  */
 @Service

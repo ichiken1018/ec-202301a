@@ -12,7 +12,7 @@ import com.example.service.ShowItemDetailService;
 /**
  * 商品詳細を操作するコントローラ.
  * 
- * @author ichiyoshikenta
+ * @author ichiyoshi_kenta
  *
  */
 @Controller
@@ -22,6 +22,13 @@ public class ShowItemDetailController {
 	@Autowired
 	private ShowItemDetailService service;
 
+	/**
+	 * 検索された商品詳細画面を表示する
+	 * 
+	 * @param itemId　商品ID
+	 * @param model モデル
+	 * @return　商品詳細画面に遷移
+	 */
 	@GetMapping("/showItemDetail")
 	public String showItemDetail(Integer itemId, Model model) {
 		Item item = service.showItemDetail(itemId);

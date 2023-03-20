@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 商品のドメイン.
  * 
- * @author Ichiyoshikenta
+ * @author Ichiyoshi_kenta
  *
  */
 public class Item {

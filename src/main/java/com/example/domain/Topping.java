@@ -3,7 +3,7 @@ package com.example.domain;
 /**
  * Topping情報を表すドメインクラス.
  * 
- * @author seiji_kitahara
+ * @author ichiyoshi_kenta
  *
  */
 public class Topping {

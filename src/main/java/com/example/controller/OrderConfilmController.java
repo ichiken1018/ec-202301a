@@ -17,7 +17,7 @@ import com.example.service.OrderConfilmService;
 /**
  * 注文内容を表示するコントローラー
  * 
- * @author yoshidayuuta
+ * @author yoshida_yuuta
  *
  */
 @Controller

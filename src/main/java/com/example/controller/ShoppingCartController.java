@@ -38,7 +38,7 @@ public class ShoppingCartController {
 	@PostMapping("/cart")
 	public String insert(ShoppingCartForm shoppingCartForm, Model model, @AuthenticationPrincipal LoginUser loginUser,
 			HttpServletRequest request) {
-		// 変更箇所 else内だけにすれば元に戻る
+		// 変更箇所(ゲスト機能追加) else内だけにすれば元に戻る
 		Integer userId = null;
 		if (loginUser == null) {
 			Cookie[] cookies = request.getCookies();

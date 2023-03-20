@@ -12,6 +12,12 @@ import org.springframework.stereotype.Repository;
 import com.example.domain.OrderTopping;
 import com.example.form.ShoppingCartForm;
 
+/**
+ * order_toppingsテーブルを操作するリポジトリ
+ * 
+ * @author seiji_kitahara
+ *
+ */
 @Repository
 public class OrderToppingRepository {
 

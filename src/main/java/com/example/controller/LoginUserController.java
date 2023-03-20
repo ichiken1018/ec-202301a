@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * ログイン/ログアウトをするコントローラー.
  * 
- * @author matsuokatoshiichi
+ * @author matsuoka_keiichi
  *
  */
 

@@ -12,6 +12,12 @@ import org.springframework.stereotype.Repository;
 import com.example.domain.OrderItem;
 import com.example.form.ShoppingCartForm;
 
+/**
+ * OrderItemsテーブルを操作するリポジトリ.
+ * 
+ * @author yoshida_yuuta
+ *
+ */
 @Repository
 public class OrderItemRepository {
 
